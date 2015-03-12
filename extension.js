@@ -16,7 +16,7 @@
         /*
          Extend the bot here, either by calling another function or here directly.
          Model code for a bot command:
-
+        */
          bot.commands.commandCommand = {
          command: 'cmd',
          rank: 'user/bouncer/mod/manager',
@@ -30,7 +30,7 @@
          }
          }
 
-         */
+         
 
         bot.commands.baconCommand = {
             command: 'bacon',  //The command to be called. With the standard command literal this would be: !bacon
@@ -53,7 +53,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "ZeroBot",
+        botName: "ZeroBot is online BEEP BOOP :MrDestructoid:",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
