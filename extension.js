@@ -25,7 +25,7 @@
          if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
          if( !bot.commands.executable(this.rank, chat) ) return void (0);
          else{
-            API.sendChat("/me http://i.imgur.com/SBAso1N.jpg");
+            API.sendChat("/me This image will get you started on plugdj: http://i.imgur.com/SBAso1N.jpg");
          }
          }
          }
