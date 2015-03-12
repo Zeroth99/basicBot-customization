@@ -17,15 +17,15 @@
          Extend the bot here, either by calling another function or here directly.
          Model code for a bot command:
         */
-         bot.commands.commandCommand = {
-         command: 'cmd',
+         bot.commands.helpCommand = {
+         command: 'help',
          rank: 'user',
          type: 'exact',
          functionality: function(chat, cmd){
          if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
          if( !bot.commands.executable(this.rank, chat) ) return void (0);
          else{
-         //Commands functionality goes here.
+            API.sendChat("http://i.imgur.com/SBAso1N.jpg");
          }
          }
          }
