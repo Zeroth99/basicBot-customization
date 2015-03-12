@@ -33,7 +33,7 @@
          
 
         bot.commands.pingCommand = {
-            command: 'pin',  //The command to be called. With the standard command literal this would be: !bacon
+            command: 'ping',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
             type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
             functionality: function (chat, cmd) {
@@ -56,13 +56,13 @@
         botName: ":MrDestructoid:ZeroBot:MrDestructoid:",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-        startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
-        startupEmoji: false, // true or false
+        startupCap: 50, // 1-200
+        startupVolume: 50, // 0-100
+        startupEmoji: true, // true or false
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 60,
-        bouncerPlus: true,
+        bouncerPlus: false,
         lockdownEnabled: false,
         lockGuard: false,
         maximumLocktime: 10,
@@ -92,7 +92,7 @@
         motd: "Temporary Message of the Day",
         filterChat: true,
         etaRestriction: false,
-        welcome: true,
+        welcome: false,
         opLink: null,
         rulesLink: null,
         themeLink: null,
@@ -101,7 +101,7 @@
         website: null,
         intervalMessages: [],
         messageInterval: 5,
-        songstats: true,
+        songstats: false,
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
