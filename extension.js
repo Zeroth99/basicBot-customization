@@ -25,7 +25,7 @@
          if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
          if( !bot.commands.executable(this.rank, chat) ) return void (0);
          else{
-            API.sendChat("http://i.imgur.com/SBAso1N.jpg");
+            API.sendChat("/me http://i.imgur.com/SBAso1N.jpg");
          }
          }
          }
@@ -40,7 +40,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me http://i.imgur.com/SBAso1N.jpg");
+                    API.sendChat("/me pong!");
                 }
             }
         };
@@ -53,25 +53,25 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: ":MrDestructoid:ZeroBot:MrDestructoid:",
+        botName: "ZeroBot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         startupCap: 50, // 1-200
         startupVolume: 50, // 0-100
         startupEmoji: true, // true or false
         maximumAfk: 120,
-        afkRemoval: true,
-        maximumDc: 60,
+        afkRemoval: false,
+        maximumDc: 30,
         bouncerPlus: false,
         lockdownEnabled: false,
         lockGuard: false,
         maximumLocktime: 10,
-        cycleGuard: true,
+        cycleGuard: false,
         maximumCycletime: 10,
         voteSkip: false,
         voteSkipLimit: 10,
         timeGuard: true,
-        maximumSongLength: 10,
+        maximumSongLength: 5.5,
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
@@ -87,10 +87,10 @@
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
-        motdEnabled: false,
-        motdInterval: 5,
-        motd: "Temporary Message of the Day",
-        filterChat: true,
+        motdEnabled: true,
+        motdInterval: 10,
+        motd: "While Geirrr is streaming don't play: Sanic, MLG, Earrape, Scotland, Scrollex, Word Nigger. Songs longer than 5:30 min will be skipped unless you ask for permission.",
+        filterChat: false,
         etaRestriction: false,
         welcome: false,
         opLink: null,
