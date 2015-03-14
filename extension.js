@@ -101,7 +101,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 10,
-        motd: "While Geirrr is streaming don't play: Sanic, MLG, Earrape, Scotland, Scrollex, Eminem - Mom's Spaghetti, Word Nigger. Songs longer than 5:30 min will be skipped unless you ask for permission.",
+        motd: "While Geirrr is streaming don't play: Sanic, MLG, Earrape, Scotland, Scrollex, Eminem - Mom's Spaghetti, Word Nigger. Songs longer than 6:30 min will be skipped unless you ask for permission.",
         filterChat: false,
         etaRestriction: false,
         welcome: false,
