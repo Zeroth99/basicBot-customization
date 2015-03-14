@@ -29,7 +29,19 @@
          }
          }
          }
-
+         
+         bot.commands.howtodjCommand = {
+         command: 'howtodj',
+         rank: 'user',
+         type: 'exact',
+         functionality: function(chat, cmd){
+         if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+         if( !bot.commands.executable(this.rank, chat) ) return void (0);
+         else{
+            API.sendChat("/me Here's how you dj: http://support.plug.dj/hc/en-us/articles/203263577-I-want-to-DJ-How-do-I-do-it-");
+         }
+         }
+         }
          
 
         bot.commands.pingCommand = {
