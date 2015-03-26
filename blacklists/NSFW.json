@@ -1,13 +1,20 @@
 {
     "1":{
-        "mid": "https://www.youtube.com/watch?v=SW-BU6keEUw"
+        "mid": "https://www.youtube.com/watch?v=IyFsgiPiW6I"
     },
     "2":{
-        "title": "This is a NSFW song",
-        "author": "The NSFW band",
-        "mid": "1:NSFWsongID2"
+        "mid": "https://www.youtube.com/watch?v=rXcJgfSyXME"
     },
     "3":{
         "mid": "https://www.youtube.com/watch?v=7rXx1qCIgQY"
+    }
+    "4":{
+        "mid": "https://www.youtube.com/watch?v=PoX20KHbXi0"
+    },
+    "5":{
+        "mid": "https://www.youtube.com/watch?v=9qmSFFdcShc"
+    },
+    "6":{
+        "mid": "https://www.youtube.com/watch?v=fKSFskorHrs"
     }
 }
