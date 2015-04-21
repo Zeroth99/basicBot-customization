@@ -114,7 +114,7 @@
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
         motdEnabled: true,
-        motdInterval: 10,
+        motdInterval: 60,
         motd: "RULES: Don't play: Sanic, Earrape, Scotland, racist songs. Songs longer than 8 min will be skipped unless you ask for permission.",
         filterChat: true,
         etaRestriction: true,
