@@ -116,7 +116,7 @@
         motdEnabled: false,
         motdInterval: 60,
         motd: "RULES: Don't play: Earrape or racist songs. Songs longer than 8 min will be skipped unless you ask for permission.",
-        filterChat: true,
+        filterChat: false,
         etaRestriction: true,
         welcome: false,
         opLink: null,
